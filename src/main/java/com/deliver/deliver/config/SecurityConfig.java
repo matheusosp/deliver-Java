@@ -1,4 +1,4 @@
-package config;
+package com.deliver.deliver.config;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
