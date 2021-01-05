@@ -1,5 +1,12 @@
 package com.deliver.deliver.repository;
-import org.springframework.data.jpa.repository.JpaRepository
 
-public interface JpaRepository extends JpaRepository<T,TD>{
+import com.deliver.deliver.entities.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface ProductRepository extends JpaRepository<Product,Long> {
+
+    List<Product> findAllByOrderByNameAsc();
+
 }

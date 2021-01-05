@@ -1,8 +1,10 @@
 package com.deliver.deliver.service;
 
+import com.deliver.deliver.dto.OrderDTO;
 import com.deliver.deliver.dto.ProductDTO;
+import com.deliver.deliver.entities.Order;
 import com.deliver.deliver.entities.Product;
-import com.deliver.deliver.repository.ProductRepository;
+import com.deliver.deliver.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -11,15 +13,15 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class ProductService {
+public class OrderService {
 
     @Autowired
-    ProductRepository repository;
+    OrderRepository repository;
 
     @Transactional(readOnly = true)
-    public List<ProductDTO> findAll(){
-        List<Product> list = repository.findAllByOrderByNameAsc();
-        return list.stream().map(x -> new ProductDTO(x)).collect(Collectors.toList());
+    public List<OrderDTO> findAll(){
+        List<Order> list = repository.findOrdersWithProducts();
+        return list.stream().map(x -> new OrderDTO(x)).collect(Collectors.toList());
     }
 
 }
