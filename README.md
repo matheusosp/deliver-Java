@@ -10,7 +10,7 @@
 ![Image](https://raw.githubusercontent.com/devsuperior/sds2/master/assets/camadas.png "Padrão camadas")
 
 
-- endpoints:
+## ENDPOINTS:
   - [GET] /products
   - [GET] /orders
   - [POST] /orders
