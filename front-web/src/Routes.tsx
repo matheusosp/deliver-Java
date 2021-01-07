@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./home";
 import NavBar from "./navbar";
-import Orders from "./Orders/Orders";
+import Orders from "./Orders";
+
 
 
 function Routes(){
