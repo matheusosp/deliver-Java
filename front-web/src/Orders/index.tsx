@@ -55,7 +55,7 @@ function Orders(){
       }
    return( 
     <>
-    <div className="orders-container">
+    <div className="orders-container"> 
         <StepsHeader/>
         <ProductsList products={products} onSelectProduct={handleSelectProduct} selectedProducts={selectedProducts}/>
         <OrderLocation onChangeLocation={location => setOrderLocation(location)}/>
