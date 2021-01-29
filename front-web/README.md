@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-## Deply: https://matheusosp.netlify.app/
+## Deploy: https://matheusosp.netlify.app/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
