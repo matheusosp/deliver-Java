@@ -1,7 +1,7 @@
 # delivery With Java && React
 
-## Deploy: [https://matheusosp-deliver.herokuapp.com/](https://matheusosp-deliver.herokuapp.com/)
-## FrontEnd Repository: [https://github.com/matheusosp/delivery-frontend-React](https://github.com/matheusosp/delivery-frontend-React)
+### Deploy: [https://matheusosp-deliver.herokuapp.com/](https://matheusosp-deliver.herokuapp.com/)
+### FrontEnd Repository: [https://github.com/matheusosp/delivery-frontend-React](https://github.com/matheusosp/delivery-frontend-React)
 ### Deploy Frontend: [https://matheusosp.netlify.app/](https://matheusosp.netlify.app/)
 
 ## Modelo conceitual
